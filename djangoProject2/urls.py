@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-import functions
+import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('greeting/<name>/', functions.ex_greeting),
-    path('homepage/', functions.ex_home),
-    path('progression/<int:start>/<int:count>/<int:step>/', functions.ex_progression),
-    path('fib/<int:x>/', functions.ex_fib),
+    path('greeting/<name>/', views.ex_greeting),
+    path('homepage/', views.ex_home),
+    path('progression/<int:start>/<int:count>/<int:step>/', views.ex_progression),
+    path('fib/<int:x>/', views.ex_fib),
 ]
