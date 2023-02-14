@@ -2,7 +2,7 @@
 
 Перше д/з
 
-Роути, які реалізувано:
+Роути, які реалізовано:
 - `/progression/<start>/<count>/<step>/`
 - `/fib/<n>`
 - `/greeting/<name>/`
